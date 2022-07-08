@@ -22,10 +22,8 @@ public class Cell {
     }
 
     public Cell(Player player, Piece piece) {
-        System.out.println("Hello");
         this.player = player;
         this.piece = piece;
-        System.out.println(this.toString());
     }
 
     public Cell(){
